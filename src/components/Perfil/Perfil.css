@@ -1,0 +1,99 @@
+.content {
+    height: 45vh;
+    width: 10vh;
+    max-width: 75rem;
+    margin: 2rem  auto;
+    padding: 1rem 3rem;
+    margin-top: 10rem; /*altura de la caja contenedora*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil {
+    background-color: pink;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    border-start-end-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.perfil > .rol {
+   align-items: center;
+}
+
+.perfil > .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil > .perfilImg {
+    width: min-content;
+    justify-content: center;
+    border-radius: 2.5rem;
+    margin: 1rem 1rem;
+    border: 0.1rem solid black;
+    
+}
+
+#cargarArchivoImg {
+    cursor: pointer;
+}
+
+
+.proyectos {
+    background: pink;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    height: 19.5cqmax;
+    margin: 0.5rem;
+    border-start-end-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+
+}
+
+.proyectos > .proyectosImgs {
+    display: flex;
+    
+}
+
+.proyectosImg {
+    width: auto;
+    height: 75px;;
+    padding: 0.1rem ;
+    margin: 3rem;
+}
+
+.contactImg {
+    width: 3rem;
+}
+
+.proyectosAdd {
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.proyectosAdd > .custom-file-input {
+    border: 2px solid #ff69b4;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.custom-file-input::after
+{
+    color: black;
+}
+
